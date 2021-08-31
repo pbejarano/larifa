@@ -17,5 +17,13 @@ function load(){
 		// debugger;
 		console.log("DATE", REMAINING_DAYS);
 	});
+
+
+	//calculamos el alto para el video
+	//youtube pone para el iframe un w = 560 y un h = 315 en base a eso aplicamos regla de 3
+	//tomamos el ancho del contenedor del video actual 
+	let wa = $("#cvideo").width();
+	let h = wa * 315 / 560;
+	$("#cvideo iframe").height(h);
 }
 $(document).ready(load);
