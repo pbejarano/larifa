@@ -1,0 +1,60 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+  padding: 0;
+  margin: 0;
+}
+h1.slogan{ font-size: 5em !important;}
+.slogan{ font-family: 'Comfortaa', cursive; }
+.comfortaa{ font-family: 'Comfortaa', cursive; }
+
+.rotateimg180 {
+  -webkit-transform:rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.rotateimg270 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#boletos{
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  #btn-scan img{ width: 70%;}
+  .navbar-nav { margin: 0px;}
+  .logo{ width: 60%;}
+  h1.slogan{ font-size: 4em !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
