@@ -7,6 +7,7 @@ body{
   padding: 0;
   margin: 0;
 }
+h1.slogan{ font-size: 5em !important;}
 .slogan{ font-family: 'Comfortaa', cursive; }
 .comfortaa{ font-family: 'Comfortaa', cursive; }
 
@@ -38,7 +39,13 @@ body{
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 }
 
-
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  #btn-scan img{ width: 70%;}
+  .navbar-nav { margin: 0px;}
+  .logo{ width: 60%;}
+  h1.slogan{ font-size: 4em !important;}
+}
 
 
 
